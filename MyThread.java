@@ -1,19 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Week_01;
 
-/**
- *
- * @author master lab
- */
 class MyThread extends Thread{
 
     public void run() {
         System.out.println("running...");
-        System.out.println("running...new 1");
+        System.out.println("alif");
     }
 
     public static void main(String args[]) {
