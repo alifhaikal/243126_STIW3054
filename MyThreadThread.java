@@ -12,6 +12,7 @@ package com.mycompany.stiw3054;
 public class MyThreadThread extends MyTest {
 
     public void run() {
+        System.out.println(Thread.currentThread().getName());
         try {
             for (int x = 1000; x <= 1010; x++) {
                 System.out.println(x);

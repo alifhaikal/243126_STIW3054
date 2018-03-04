@@ -5,11 +5,13 @@
  */
 package com.mycompany.stiw3054;
 
+import static java.lang.Thread.currentThread;
 import static java.lang.Thread.sleep;
 
 public class MyThreads extends MyTest {
 
     public void run() {
+        System.out.println(Thread.currentThread().getName());
         try {
             for (int x = 0; x <= 10; x++) {
                 System.out.println(x);
